@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<DTS:Executable xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:refId="Package"
+  DTS:CreationDate="2/3/2026 8:57:13 PM"
+  DTS:CreationName="Microsoft.Package"
+  DTS:CreatorComputerName="PORTATILDELL-DA"
+  DTS:CreatorName="PORTATILDELL-DA\Davian"
+  DTS:DTSID="{34D8C303-7AEE-4316-9B53-159EFF08A8D9}"
+  DTS:ExecutableType="Microsoft.Package"
+  DTS:LastModifiedProductVersion="17.0.1010.2"
+  DTS:LocaleID="5130"
+  DTS:ObjectName="Package2"
+  DTS:PackageType="5"
+  DTS:VersionGUID="{D52D5623-2164-4286-9B9B-478C901E7124}">
+  <DTS:Property
+    DTS:Name="PackageFormatVersion">8</DTS:Property>
+  <DTS:Variables />
+  <DTS:Executables />
+</DTS:Executable>

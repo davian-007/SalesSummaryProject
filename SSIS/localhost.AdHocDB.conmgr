@@ -1,0 +1,12 @@
+﻿<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="localhost.AdHocDB"
+  DTS:DTSID="{BD992EA0-07EA-4C76-A222-CA036D902EAA}"
+  DTS:CreationName="OLEDB">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectRetryCount="1"
+      DTS:ConnectRetryInterval="5"
+      DTS:ConnectionString="Data Source=localhost;Initial Catalog=AdHocDB;Provider=SQLNCLI11.1;Integrated Security=SSPI;Application Name=SSIS-SSIS_AdHocDB-{BD992EA0-07EA-4C76-A222-CA036D902EAA}localhost.AdHocDB;Auto Translate=False;" />
+  </DTS:ObjectData>
+</DTS:ConnectionManager>

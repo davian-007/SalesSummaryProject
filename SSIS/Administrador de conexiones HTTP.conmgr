@@ -1,0 +1,20 @@
+﻿<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="Administrador de conexiones HTTP"
+  DTS:DTSID="{956AA5E3-E083-4288-9993-3BC47D65CF60}"
+  DTS:CreationName="HTTP">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectionString="https://swapi.dev/api/people">
+      <DTS:HttpConnection
+        DTS:ServerURL="https://swapi.dev/api/people">
+        <DTS:Property
+          DTS:Name="ServerPassword"
+          Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAVGV1NFOnhk6n5vp99u5o+QAAAAACAAAAAAAQZgAAAAEAACAAAACZcDaInqK23Geq9lU6gg4VkeijosDY9WTEuz0MU/btkwAAAAAOgAAAAAIAACAAAAAsz3067d7CQl5ilhLmoEdt7mZKMYQRBhcxFE4xduILM4AAAABWk7+D6TBkpzNqQ/vme2k49FudTYbu/k4xfFaSE3QUbvKPStYFaBCWTeOKh3MoFzQkl/nK4HmOq6UfRvsx7G60/mTg3W7a5PbUM7iWOpJwYsmA7Q/0/QGPzSv3cRHZxmjSKDpA40kvt6rH0bDNqyFOXhPNFMqvJoJyB7LnSu0wo0AAAACYgkC6ckkA/e8fTWcVCWSfjH6ICmVkU3j5jeEyJ6YVcYJfiEtAUeQ6XKIT6PpSszH55bDveVfiNJ8l6RRtbmwt</DTS:Property>
+        <DTS:Property
+          DTS:Name="ProxyPassword"
+          Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAVGV1NFOnhk6n5vp99u5o+QAAAAACAAAAAAAQZgAAAAEAACAAAAB0PTQ35Q0EQTmAHD5HMu5Rt7zb3my0JoMCzsfbJ8KaxQAAAAAOgAAAAAIAACAAAACYhMaTHyxQJqav5p99cyh6DfkQMt+Gy1T2Jjm8VBjKDYAAAACLT6DJvo2nlihyMoYBK7Z7r/C28jKf2KWa9SdU55o8660Qb76bVDQ/i4CUss0YWKnASCiw42C4/ekEoqL095SXxE/dJngxwa8JOMtJGHZ6d7XYRFn3RRA5B+h+RYFHvCGG2fQSxkdMgCsOl+YNrW2f/SVp12iu7bLs4WtG5zCjs0AAAAAn2EZ+o9lUQres7NJIHzhkc52+Oz4yerB5XUdrzsHexeh+p4tQl4Gz87IMQlRnxndbPDLgz/SgKdaznW0+62UR</DTS:Property>
+      </DTS:HttpConnection>
+    </DTS:ConnectionManager>
+  </DTS:ObjectData>
+</DTS:ConnectionManager>
